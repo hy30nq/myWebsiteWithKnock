@@ -1,0 +1,93 @@
+/* 메인 콘텐츠 스타일 */
+main {
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* 약간의 그림자 */
+}
+
+section {
+  margin: 5rem;
+  color: rgb(150, 20, 60);
+}
+
+h2 {
+  color: rgb(150, 20, 60); 
+  width: 100%;
+  max-width: 500px; 
+}
+
+/* 폼 및 버튼 스타일 */
+input[type="text"],
+input[type="file"] {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin: 10px 0;
+  background: #333; /* 어두운 배경 */
+  color: white; /* 밝은 텍스트 */
+  border: 1px solid #444; /* 경계 */
+  border-radius: 5px; /* 둥근 모서리 */
+}
+
+input[type="submit"] {
+  background-color: rgb(150, 20, 60); /* 포인트 색상 */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: rgba(220, 20, 60, 0.8); /* 호버 색상 */
+}
+
+/* 파일 목록 스타일 */
+#upload_file_list ul {
+  list-style: none;
+  padding: 0;
+}
+
+#upload_file_list li {
+  background-color: #333; /* 어두운 배경 */
+  color: white; /* 밝은 텍스트 */
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#upload_file_list li a {
+  display: inline-block;
+  padding: 8px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(150, 20, 60);
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+#upload_file_list li a:hover {
+  background-color: rgba(220, 20, 60, 0.8);
+}
+
+/* 페이지네이션 스타일 */
+#file_page {
+  text-align: center;
+}
+
+#file_page div a {
+  background-color: #444; /* 어두운 배경 */
+  color: white; /* 밝은 텍스트 */
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 5px;
+  text-decoration: none; /* 텍스트 밑줄 제거 */
+}
+
+#file_page div a:hover {
+  background-color: rgba(220, 20, 60, 0.8); /* 호버 색상 */
+}

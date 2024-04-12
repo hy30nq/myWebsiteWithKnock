@@ -1,0 +1,36 @@
+/* 메인 콘텐츠 스타일 */
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 20px; /* 전체 여백 추가 */
+  box-sizing: border-box;
+}
+
+.profile img {
+  max-width: 200px; /* 이미지 크기 조정 */
+  height: auto;
+  border-radius: 50%; /* 이미지를 동그랗게 */
+  margin: 0 auto; /* 중앙 정렬 */
+}
+
+.profile {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 20px; /* 섹션 모서리 둥글게 */
+  margin-bottom: 20px; /* 섹션 간 간격 */
+}
+
+.btn {
+  display: inline-block;
+  background-color: rgba(220, 20, 60, 0.8); /* 버튼 포인트 색상 */
+  color: white;
+  padding: 0.5rem 1.5rem;
+  text-decoration: none;
+  border-radius: 10px; /* 버튼 모서리 둥글게 */
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: rgba(220, 20, 60, 1); /* 버튼 호버 색상 */
+}

@@ -1,0 +1,106 @@
+/* General Styles */
+
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+h2 {
+  color: rgb(150, 20, 60);;
+}
+
+/* Search Form Styles */
+#search_guestbook {
+  margin-bottom: 20px;
+}
+
+#search_guestbook form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#search_guestbook input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#search_guestbook input[type="submit"] {
+  width: 25%;
+  background-color: rgb(150, 20, 60);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#search_guestbook input[type="submit"]:hover {
+  background-color: rgba(220, 20, 60, 0.8);
+}
+
+/* Guestbook Entries Styles */
+#guestbook_entries article {
+  background-color: #282828; /* 어두운 배경 */
+  border: 3px solid #373737;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 8px 8px 4px rgba(0,0,0,0.2);
+}
+
+#guestbook_entries article h3 {
+  font-weight: bolder;
+  font-size: 1.8rem;
+  color: rgba(220, 20, 60, 0.8);
+}
+
+.main_text {
+  margin: 30px 0;
+}
+
+#author_in_article {
+  color: rgba(220, 20, 60, 0.8);
+  display: inline;
+} 
+
+#nofound {
+  color: rgb(150, 20, 60);
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.btn {
+  background-color: rgb(150, 20, 60); /* 포인트 색상 */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: rgba(220, 20, 60, 0.8); /* 호버 색상 */
+}
+
+/* Pagination Styles */
+#pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#pagination a {
+  padding: 8px 12px;
+  margin: 0 5px;
+  border-radius: 5px;
+  background-color: #444;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#pagination a:hover {
+  background-color: rgba(220, 20, 60, 0.8);
+}

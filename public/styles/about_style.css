@@ -1,0 +1,35 @@
+/* 페이지의 메인 내용을 중앙에 위치시키고 스타일링 */
+main {
+  width: 90%; 
+  max-width: 800px; 
+  margin: 3rem auto; 
+  padding: 20px; 
+  box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+  border-radius: 8px; 
+  background-color: #333; 
+}
+
+/* 헤더 스타일링 */
+main h2, main h3 {
+  color: rgb(255, 55, 55);
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+main ul {
+  padding: 0;
+  list-style-type: none; /* 리스트 스타일 제거 */
+}
+
+main li {
+  line-height: 200%;
+}
+
+main a {
+  color: rgb(200, 200, 200);
+  text-decoration: none; /* 밑줄 제거 */
+}
+
+main a:hover {
+  text-decoration: underline; /* 호버시 밑줄 */
+}
