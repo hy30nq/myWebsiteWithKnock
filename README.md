@@ -26,7 +26,7 @@
  ┃ ┃ ┣ 📜register_page_style.css
  ┃ ┃ ┣ 📜styles.css
  ┃ ┃ ┗ 📜write_edit_style.css
- ┣ 📂uploaded_files
+ ┣ 📂uploaded_files - sample files
  ┃ ┣ 📜BytesAndBigIntegers.py
  ┃ ┣ 📜LinkedList.java
  ┃ ┣ 📜LinkedListEx.java
