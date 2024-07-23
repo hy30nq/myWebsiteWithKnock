@@ -1,7 +1,7 @@
 # myWebsiteWithKnock
 
 ```
-📦html
+📦web
  ┣ 📂database
  ┃ ┗ 📜db.php
  ┣ 📂implementation
